@@ -1,56 +1,35 @@
 [
     {
-    "id": "moplayground",
-    "title": "MO-Playground: Massively Parallelized Multi-Objective Reinforcement Learning for Robotics",
+    "id": "tsap",
+    "title": "Learning Time-Scale Invariant Population-Level Neural Representations",
     "authors": [
-      {"name": "Neil Janwani", "highlight": true},
-      {"name": "Ellen Novoseller"},
-      {"name": "Vernon Lawhern"},
-      {"name": "Maegan Tucker"}
+      {"name": "Eshani Patel", "highlight": true},
+      {"name": "Yisong Yue"},
+      {"name": "Geeling Chau"}
     ],
-    "venue": "Robotics and Automation Letters",
-    "year": 2026,
-    "arxivUrl": "https://arxiv.org/abs/2603.09237v1",
-    "code": "https://github.com/dynamicmobility/moplayground",
-    "website": "",
-    "thumbnail": "images/papers/mop.gif",
-    "thumbnailAlt": "Bruce robot trained via MO-Playground",
-    "abstract": "Multi-objective reinforcement learning (MORL) is a powerful tool to learn Pareto-optimal policy families across conflicting objectives. However, unlike traditional RL algorithms, existing MORL algorithms do not effectively leverage large-scale parallelization to concurrently simulate thousands of environments, thus facing vastly increased computation time. Ultimately, this has limited the application of MORL towards complex multi-objective robotics problems. To address these challenges, we present 1) MORLAX, a new GPU-native, fast MORL algorithm, and 2) MO-Playground, a pip-installable playground of GPU-accelerated multi-objective environments. Together, MORLAX and MO-Playground approximate Pareto sets within minutes, offering 26-271x speed-ups compared to legacy CPU-based approaches and up to 19x speed-ups over prior GPU-based approaches whilst learning superior Pareto front hypervolumes. We demonstrate MO-Playground’s versa- tility by implementing a custom BRUCE humanoid robot envi- ronment and learning Pareto-optimal locomotion policies across 6 practical objectives in simulation, such as smoothness, efficiency and arm swinging."
+    "venue": "NeurIPS 2025 Workshop on Foundation Models for the Brain and Body",
+    "year": 2025,
+    "arxivUrl": "https://arxiv.org/pdf/2511.13022",
+    "thumbnail": "images/papers/tsap.png",
+    "thumbnailAlt": "Time-Scale Augmented Pretraining",
+    "abstract": "General-purpose foundation models for neural time series can help accelerate neuroscientific discoveries and enable applications such as brain computer interfaces (BCIs). A key component in scaling these models is population-level representation learning, which leverages information across channels to capture spatial as well as temporal structure. Population-level approaches have recently shown that such representations can be both efficient to learn on top of pretrained temporal encoders and produce useful representations for decoding a variety of downstream tasks. However, these models remain sensitive to mismatches in preprocessing, particularly on time-scales, between pretraining and downstream settings. We systematically examine how time-scale mismatches affects generalization and find that existing representations lack invariance. To address this, we introduce Time-scale Augmented Pretraining (TSAP), which consistently improves robustness to different time-scales across decoding tasks and builds invariance in the representation space. These results highlight handling preprocessing diversity as a key step toward building generalizable neural foundation models."
   },
     {
-    "id": "navigait",
-    "title": "NaviGait: Navigating Dynamically Feasible Gait Libraries using Deep Reinforcement Learning",
+    "id": "ozone-random-forest",
+    "title": "Towards Understanding the Sub-scale Drivers of Surface Ozone with Machine Learning Based Feature Permutation Importance Analysis",
     "authors": [
-      {"name": "Neil Janwani", "highlight": true, "superscript": "*"},
-      {"name": "Varun Madabushi", "superscript": "*"},
-      {"name": "Maegan Tucker"}
+      {"name": "Eshani Patel", "highlight": true},
+      {"name": "Yuliya Marchetti"},
+      {"name": "Kazuyuki Miyazaki"},
+      {"name": "Kevin Bowman"},
+      {"name": "Steven Lu"},
+      {"name": "James Montgomery"}
     ],
-    "venue": "ICRA",
-    "year": 2026,
-    "arxivUrl": "https://arxiv.org/abs/2510.11542",
-    "code": "https://github.com/dynamicmobility/navigait",
-    "website": "https://dynamicmobility.github.io/navigait/",
+    "venue": "American Meteorological Society Meeting Abstracts",
+    "year": 2023,
+    "website": "https://ui.adsabs.harvard.edu/abs/2023AMS...10322701P/abstract",
     "thumbnail": "images/papers/navigait.gif",
     "thumbnailAlt": "Bruce Robot Walking with NaviGait",
-    "abstract": "In this work, we present NaviGait, a hierarchical framework that combines the structure of trajectory optimization with the adaptability of RL for robust and intuitive locomotion control.  NaviGait leverages RL to synthesize new motions by selecting, minimally morphing, and stabilizing gaits taken from an offline-generated gait library, circumventing the need for human-collected demonstrations. NaviGait results in walking policies that match the reference motion better while maintaining robustness comparable to other locomotion controllers."
-  },
-  {
-    "id": "bcbf_intention",
-    "title": "A Learning-Based Framework for Safe Human-Robot Collaboration with Multiple Backup Control Barrier Functions",
-    "authors": [
-      {"name": "Neil Janwani", "highlight": true, "superscript": "*"},
-      {"name": "Ersin Daş", "superscript": "*"},
-      {"name": "Thomas Touma"},
-      {"name": "Skylar X. Wei"},
-      {"name": "Tamas G. Molnar"},
-      {"name": "Joel W. Burdick"}
-    ],
-    "venue": "ICRA",
-    "year": 2024,
-    "arxivUrl": "https://arxiv.org/abs/2310.05865",
-    "website": "",
-    "thumbnail": "images/papers/icra2024-bcbf-intention.gif",
-    "thumbnailAlt": "Intention-Aware Safety",
-    "abstract": "We estimate operator intention with an LSTM-based network to safely select among multiple safety filters—each defined by a different backup strategy—selecting behaviors that better align with operator intent while maintaining safety. We validate the approach through simulations and hardware experiments."
+    "abstract": "Understanding and anticipating the global atmospheric environment, particularly air pollution such as ozone, is essential for assessing the global public health burden of disease linked to air pollution exposure and for saving human lives. To provide new scientific insights into the sub-scale drivers of surface ozone trends, we employed a machine learning (ML) based feature permutation importance analysis on the residual bias between surface observations and chemical transport model predictions, drawing on data from the TOAR-2 surface observations (via the Air Quality Benchmark, AQ-Bench, covering 5,577 measurement stations from 2010 to 2014), the MOMO-Chem data assimilation framework, and high-resolution NASA MODIS land cover imagery (500 m resolution) obtained from Google Earth Engine. Using a Random Forest regression model, we conducted two experiments: one trained only on the TOAR-2 AQ-Bench data set, and a second that added four statistical features (mean, standard deviation, mode, and number of different land cover types) derived from the MODIS land cover data. The baseline AQ-Bench experiment yielded an RMSE of 5.61 and a Pearson's r of 0.59, identifying altitude, nightlight, and NOx emissions among the most important parameters, while the addition of the MODIS land cover features improved performance to an RMSE of 4.76 and a Pearson's r of 0.69 and better predicted polluted, high-ozone cases across the globe. These results demonstrate that incorporating high-resolution land cover information provides important insight into the surface ozone chemical regime, motivating future work to supply the ML-identified features to the MOMO-Chem framework, explore additional models and hyperparameter tuning, and test further high-resolution data sets to benefit air quality and human health studies."
   }
 ]

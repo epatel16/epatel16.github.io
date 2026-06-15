@@ -170,7 +170,9 @@
           const titleHref = paper.website || paper.arxivUrl;
           const links = [];
           if (paper.arxivUrl) links.push(`<a href="${paper.arxivUrl}">arXiv</a>`);
+          if (paper.pdf) links.push(`<a href="${paper.pdf}">pdf</a>`);
           if (paper.code) links.push(`<a href="${paper.code}">code</a>`);
+          if (paper.video) links.push(`<a href="${paper.video}">video</a>`);
           if (paper.abstract && !inlineAbstract) links.push(`<a href="javascript:toggleblock('${paper.id}_abs')">abstract</a>`);
 
           const venueLine = [paper.venue, paper.year].filter(Boolean).join(', ');
