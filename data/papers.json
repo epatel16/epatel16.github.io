@@ -14,7 +14,7 @@
     "thumbnailAlt": "Time-Scale Augmented Pretraining",
     "abstract": "General-purpose foundation models for neural time series can help accelerate neuroscientific discoveries and enable applications such as brain computer interfaces (BCIs). A key component in scaling these models is population-level representation learning, which leverages information across channels to capture spatial as well as temporal structure. Population-level approaches have recently shown that such representations can be both efficient to learn on top of pretrained temporal encoders and produce useful representations for decoding a variety of downstream tasks. However, these models remain sensitive to mismatches in preprocessing, particularly on time-scales, between pretraining and downstream settings. We systematically examine how time-scale mismatches affects generalization and find that existing representations lack invariance. To address this, we introduce Time-scale Augmented Pretraining (TSAP), which consistently improves robustness to different time-scales across decoding tasks and builds invariance in the representation space. These results highlight handling preprocessing diversity as a key step toward building generalizable neural foundation models."
   },
-    {
+  {
     "id": "ozone-random-forest",
     "title": "Towards Understanding the Sub-scale Drivers of Surface Ozone with Machine Learning Based Feature Permutation Importance Analysis",
     "authors": [
@@ -28,7 +28,8 @@
     "venue": "American Meteorological Society Meeting Abstracts",
     "year": 2023,
     "website": "https://ui.adsabs.harvard.edu/abs/2023AMS...10322701P/abstract",
-    "thumbnail": "images/papers/navigait.gif",
+    "pdf": "images/papers/AMS-Poster-Final-Draft.pdf",
+    "thumbnail": "images/papers/jpl.png",
     "thumbnailAlt": "Bruce Robot Walking with NaviGait",
     "abstract": "Understanding and anticipating the global atmospheric environment, particularly air pollution such as ozone, is essential for assessing the global public health burden of disease linked to air pollution exposure and for saving human lives. To provide new scientific insights into the sub-scale drivers of surface ozone trends, we employed a machine learning (ML) based feature permutation importance analysis on the residual bias between surface observations and chemical transport model predictions, drawing on data from the TOAR-2 surface observations (via the Air Quality Benchmark, AQ-Bench, covering 5,577 measurement stations from 2010 to 2014), the MOMO-Chem data assimilation framework, and high-resolution NASA MODIS land cover imagery (500 m resolution) obtained from Google Earth Engine. Using a Random Forest regression model, we conducted two experiments: one trained only on the TOAR-2 AQ-Bench data set, and a second that added four statistical features (mean, standard deviation, mode, and number of different land cover types) derived from the MODIS land cover data. The baseline AQ-Bench experiment yielded an RMSE of 5.61 and a Pearson's r of 0.59, identifying altitude, nightlight, and NOx emissions among the most important parameters, while the addition of the MODIS land cover features improved performance to an RMSE of 4.76 and a Pearson's r of 0.69 and better predicted polluted, high-ozone cases across the globe. These results demonstrate that incorporating high-resolution land cover information provides important insight into the surface ozone chemical regime, motivating future work to supply the ML-identified features to the MOMO-Chem framework, explore additional models and hyperparameter tuning, and test further high-resolution data sets to benefit air quality and human health studies."
   }
