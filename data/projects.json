@@ -12,8 +12,8 @@
     "website": "",
     "pdf": "images/projects/CS_163_Final_Report___Dark_Matter_Diffusion.pdf",
     "code": "https://github.com/epatel16/Dark-Matter-Diffusion",
-    "thumbnail": "images/projects/singular_modalities.png",
-    "thumbnailAlt": "Dark matter reconstruction from single modalities",
+    "thumbnail": "images/projects/dark_matter_vdm.png",
+    "thumbnailAlt": "Variational diffusion model conditioned on stellar, FRB, and lensing maps",
     "abstract": "Multi-modal diffusion framework that reconstructs dark matter density fields and estimates cosmological parameters, achieving strong fidelity that improves with better data quality."
   },
   {
@@ -27,8 +27,8 @@
     "venue": "Caltech, CS 163: Projects in Machine Learning",
     "year": "2023",
     "website": "",
-    "thumbnail": "",
-    "thumbnailAlt": "",
+    "thumbnail": "images/projects/eikonal_kernel.png",
+    "thumbnailAlt": "Example sensitivity kernel between source and receiver",
     "abstract": "Applied FNOs for seismic wave travel-time estimation, replacing PDE solvers; scalable training on 100GB datasets using GPU-accelerated HPC clusters"
   },
   {

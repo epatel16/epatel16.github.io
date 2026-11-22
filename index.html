@@ -190,7 +190,7 @@
                 ${venueLine ? `<em>${paper.venue}</em>${paper.venue && paper.year ? ', ' : ''}${paper.year || ''}<br>` : ''}
                 </p>
 
-                ${inlineAbstract && paper.abstract ? `<p align="justify">${paper.abstract}</p>` : ''}
+                ${inlineAbstract && paper.abstract ? `<p>${paper.abstract}</p>` : ''}
                 <div class="paper" id="${paper.id}">
                     ${links.join(' | ')}
                     ${paper.abstract && !inlineAbstract ? `<abs align="justify" id="${paper.id}_abs"> ${paper.abstract}</abs>` : ''}
