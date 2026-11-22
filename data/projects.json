@@ -1,57 +1,50 @@
 [
   {
-    "id": "eikonal",
-    "title": "Eikonal Tomography with Fourier Neural Operators",
+    "id": "dark_matter",
+    "title": "Using Multi-Modal Diffusion Models to Reconstruct Dark Matter Fields",
     "authors": [
-      {"name": "Eshani Patel"}
+      {
+        "name": "Eshani Patel"
+      }
     ],
     "venue": "Caltech, CS 163: Projects in Machine Learning",
     "year": "2024",
+    "website": "",
+    "pdf": "images/projects/CS_163_Final_Report___Dark_Matter_Diffusion.pdf",
+    "code": "https://github.com/epatel16/Dark-Matter-Diffusion",
+    "thumbnail": "images/projects/singular_modalities.png",
+    "thumbnailAlt": "Dark matter reconstruction from single modalities",
+    "abstract": "Multi-modal diffusion framework that reconstructs dark matter density fields and estimates cosmological parameters, achieving strong fidelity that improves with better data quality."
+  },
+  {
+    "id": "eikonal",
+    "title": "Eikonal Tomography with Fourier Neural Operators",
+    "authors": [
+      {
+        "name": "Eshani Patel"
+      }
+    ],
+    "venue": "Caltech, CS 163: Projects in Machine Learning",
+    "year": "2023",
     "website": "",
     "thumbnail": "",
     "thumbnailAlt": "",
     "abstract": "Applied FNOs for seismic wave travel-time estimation, replacing PDE solvers; scalable training on 100GB datasets using GPU-accelerated HPC clusters"
   },
   {
-    "id": "dark_matter",
-    "title": "Using Multi-Modal Diffusion Models to Reconstruct Dark Matter Fields",
-    "authors": [
-      {"name": "Eshani Patel"}
-    ],
-    "venue": "Caltech, CS 163: Projects in Machine Learning",
-    "year": "2025",
-    "website": "",
-    "pdf": "images/projects/CS_163_Final_Report___Dark_Matter_Diffusion.pdf",
-    "code": "https://github.com/epatel16/Dark-Matter-Diffusion",
-    "thumbnail": "images/projects/singular_modalities.png",
-    "thumbnailAlt": "Learning Humanoid Motion Priors Online",
-    "abstract": "Multi-modal diffusion framework that reconstructs dark matter density fields and estimates cosmological parameters, achieving strong fidelity that improves with better data quality."
-  },
-  {
     "id": "wikipedia_agent",
     "title": "ReAct-Based Semantic Wikipedia Scraper",
     "authors": [
-      {"name": "Eshani Patel"}
+      {
+        "name": "Eshani Patel"
+      }
     ],
     "venue": "Caltech CS 159, Agentic AI",
-    "year": "2025",
+    "year": "2024",
     "website": "",
     "video": "https://www.youtube.com/watch?v=2QX1RexelOo&feature=youtu.be",
     "thumbnail": "images/projects/teallm.png",
     "thumbnailAlt": "Wikipedia Agent",
     "abstract": "Sub-agents for retrieval augmented generation. Improved answer accuracy and speed over baselines."
-  },
-  {
-    "id": "ai_diagnostician",
-    "title": "AI Diagnostician",
-    "authors": [
-      {"name": "Eshani Patel"}
-    ],
-    "venue": "",
-    "year": "",
-    "website": "",
-    "thumbnail": "",
-    "thumbnailAlt": "AI Diagnostician",
-    "abstract": "Trained large vision models to predict pathologies from \"CheXpert\" chest X-rays."
   }
 ]

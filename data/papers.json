@@ -1,11 +1,69 @@
 [
-    {
+  {
+    "id": "imindbench",
+    "title": "iMINDBench: iEEG Multi-Institution Neural Decoding Benchmark",
+    "authors": [
+      {
+        "name": "Geeling Chau"
+      },
+      {
+        "name": "Saba Hashemi"
+      },
+      {
+        "name": "Yonghyeon Gwon"
+      },
+      {
+        "name": "Eshani Patel",
+        "highlight": true
+      },
+      {
+        "name": "Jan DeWitt"
+      },
+      {
+        "name": "Christopher Wang"
+      },
+      {
+        "name": "Andrii Zahorodnii"
+      },
+      {
+        "name": "Sabera J Talukder"
+      },
+      {
+        "name": "Danny Dongyeop Han"
+      },
+      {
+        "name": "Chun Kee Chung"
+      },
+      {
+        "name": "Maryam M Shanechi"
+      },
+      {
+        "name": "Yisong Yue"
+      }
+    ],
+    "venue": "arXiv preprint",
+    "year": 2026,
+    "website": "https://imindbench.github.io/",
+    "arxivUrl": "https://arxiv.org/abs/2609.18104",
+    "code": "https://github.com/imindbench/iMINDBench",
+    "thumbnail": "images/papers/imindbench.png",
+    "thumbnailAlt": "iMINDBench overview: multi-institution datasets, preprocessing tracks, and decoding tasks",
+    "abstract": "Intracranial electroencephalography (iEEG) is widely used to record electrical activity directly from electrodes inside the human brain, making it an attractive modality for neural decoding. However, progress in iEEG decoding, especially toward general-purpose foundation models, remains difficult to measure reliably: datasets are task- or institution-specific, limiting evidence of generalization across tasks and recording environments, and preprocessing choices can strongly influence performance, making model improvements difficult to distinguish from preprocessing gains. Thus, we introduce iMINDBench, an iEEG Multi-Institution Neural Decoding Benchmark that evaluates models on a shared suite of fifteen decoding tasks across three naturalistic movie-watching datasets. The benchmark additionally defines standardized preprocessing tracks and fixed evaluation splits to support consistent model comparisons. Using iMINDBench, we find that the evaluated pretrained systems generally outperform baselines within their respective preprocessing tracks, while strong spectral baselines remain competitive across institutional datasets. In our scaling study, adding up to 25 times more supervised data from other subjects or institutions yields only small or task-dependent gains over within-session training. Together, these findings highlight the need for iEEG models that improve on strong preprocessing baselines and make more effective use of data across subjects and institutions."
+  },
+  {
     "id": "tsap",
     "title": "Learning Time-Scale Invariant Population-Level Neural Representations",
     "authors": [
-      {"name": "Eshani Patel", "highlight": true},
-      {"name": "Yisong Yue"},
-      {"name": "Geeling Chau"}
+      {
+        "name": "Eshani Patel",
+        "highlight": true
+      },
+      {
+        "name": "Yisong Yue"
+      },
+      {
+        "name": "Geeling Chau"
+      }
     ],
     "venue": "NeurIPS 2025 Workshop on Foundation Models for the Brain and Body",
     "year": 2025,
@@ -18,12 +76,25 @@
     "id": "ozone-random-forest",
     "title": "Towards Understanding the Sub-scale Drivers of Surface Ozone with Machine Learning Based Feature Permutation Importance Analysis",
     "authors": [
-      {"name": "Eshani Patel", "highlight": true},
-      {"name": "Yuliya Marchetti"},
-      {"name": "Kazuyuki Miyazaki"},
-      {"name": "Kevin Bowman"},
-      {"name": "Steven Lu"},
-      {"name": "James Montgomery"}
+      {
+        "name": "Eshani Patel",
+        "highlight": true
+      },
+      {
+        "name": "Yuliya Marchetti"
+      },
+      {
+        "name": "Kazuyuki Miyazaki"
+      },
+      {
+        "name": "Kevin Bowman"
+      },
+      {
+        "name": "Steven Lu"
+      },
+      {
+        "name": "James Montgomery"
+      }
     ],
     "venue": "American Meteorological Society Meeting Abstracts",
     "year": 2023,
